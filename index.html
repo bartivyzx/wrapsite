@@ -3,10 +3,10 @@
 <head>
         <!--Meta tags-->
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,
-        initial-scale=1.0">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
         <!--Titel-->
-        <title>Walma wrap</title>
+        <title>Woensdag</title>
         <link rel="stylesheet" href="style.css">
 
          <!-- Bootstrap CSS -->
@@ -14,14 +14,32 @@
 
 </head>
 <body>
-    <navbar>
-        <div class="logo">BART</div>
-        <div class="nav-items">
-            <a href="/index.html">Home</a>
-            <a href="/index.html">Diensten</a>
-            <a href="/index.html">Contact</a>
-        </div>
-    </navbar>
+    
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">BART</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#over ons" class="navbar__links" id="overons-page">Over ons</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#diensten" class="navbar__links" id="diensten-page">Diensten</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#contactformulier" class="button" id="contactformulier-page">Contactformulier</a>
+                </li>
+        </ul>
+     </div>
+  </nav>
+        
 <section class="hero">
     <div class="hero-container">
         <div class="column-left">
